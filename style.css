@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+.bg-gray-900 {
+  background-color: #121826;
+}
+.text-white {
+  color: white;
+}
