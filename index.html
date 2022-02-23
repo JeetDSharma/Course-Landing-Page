@@ -7,23 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="bg-gray-900">
-        <div>
-            <img src="" alt="">
-            <a href="" class="text-white">Pricing</a>
-            <a href="" class="text-white">Course</a>
-            <a href="" class="text-white">Blog</a>
-            <a href="" class="text-white">Forum</a>
+    <header class="bg-gray-900 flex justify-between" style="padding: 18px 12px">
+        <div class="flex justify-center items-center">
+            <img src="img/logo.svg" alt="" class="" style="margin-right: 50px">
+            <a href="" class="text-white py-8 px-16 no-underline">Pricing</a>
+            <a href="" class="text-white py-8 px-16 no-underline">Course</a>
+            <a href="" class="text-white py-8 px-16 no-underline">Blog</a>
+            <a href="" class="text-white py-8 px-16 no-underline">Forum</a>
         </div>
-        <div>
-            <a href="" class="text-white">Login</a>
-            <button>Sign Up</button>
+        <div class="flex items-center">
+            <a href="" class="text-white block py-8 px-16 no-underline" style="margin-right: 12px">Login</a>
+            <button
+                class="m-8 bg-brand-teal text-white no-border rounded-full py-12 px-28 font-bold uppercase text-sm">Sign
+                Up</button>
         </div>
     </header>
-
+    <section class="relative" style=" top: -77px">
+        <video loop="loop" autoplay="autoplay" playsinline="" muted="muted" class="w-full h-full object-cover"
+            style="min-height: 550px;" src="vid/galaxy.mp4"></video>
+        <!-- <img src="img/hero.png" alt="" class="w-full"> -->
+    </section>
 </body>
 
 </html>
