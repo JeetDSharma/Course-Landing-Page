@@ -1,8 +1,14 @@
-* {
+body {
   margin: 0;
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
 }
 button {
   font-family: "Lato", sans-serif;
@@ -12,6 +18,9 @@ button {
 }
 .text-white {
   color: white;
+}
+.bg-white {
+  background-color: white;
 }
 .block {
   display: block;
@@ -27,6 +36,9 @@ button {
 }
 .flex {
   display: flex;
+}
+.absolute {
+  position: absolute;
 }
 .justify-between {
   justify-content: space-between;
@@ -66,6 +78,9 @@ button {
 .bg-brand-teal {
   background-color: #539d98;
 }
+.text-brand-teal {
+  color: #539d98;
+}
 .no-border {
   border: none;
 }
@@ -84,6 +99,15 @@ button {
 .w-full {
   width: 100%;
 }
+.h-full {
+  height: 100%;
+}
 .relative {
   position: relative;
+}
+.object-cover {
+  object-fit: cover;
+}
+.z-10 {
+  z-index: 10;
 }
