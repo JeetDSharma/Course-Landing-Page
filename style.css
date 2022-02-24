@@ -22,21 +22,6 @@ button {
 .bg-white {
   background-color: white;
 }
-.block {
-  display: block;
-}
-.inline-block {
-  display: inline-block;
-}
-.inline {
-  display: inline;
-}
-.hidden {
-  display: none;
-}
-.flex {
-  display: flex;
-}
 .absolute {
   position: absolute;
 }
@@ -87,17 +72,11 @@ button {
 .rounded-full {
   border-radius: 9999px;
 }
-.font-bold {
-  font-weight: 700;
-}
 .uppercase {
   text-transform: uppercase;
 }
 .text-sm {
   font-size: 14px;
-}
-.w-full {
-  width: 100%;
 }
 .h-full {
   height: 100%;
@@ -110,4 +89,32 @@ button {
 }
 .z-10 {
   z-index: 10;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-36px {
+  font-size: 36px;
+}
+.text-16px {
+  font-size: 16px;
+}
+.h-385 {
+  height: 385px;
+}
+/* sm screen size.. */
+@media (min-width: 640px) {
+  .sm\:text-60px {
+    font-size: 60px;
+  }
+  .sm\:text-20px {
+    font-size: 20px;
+  }
+}
+/* medium screen size ...  */
+@media (min-width: 768px) {
+  .md\:h-689px {
+    height: 689px;
+  }
 }
