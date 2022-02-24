@@ -3,6 +3,7 @@ body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #121826;
 }
 h1 {
   margin: 0;
@@ -100,8 +101,11 @@ button {
 .text-16px {
   font-size: 16px;
 }
-.h-385 {
+.h-385px {
   height: 385px;
+}
+.h-450px {
+  height: 450px;
 }
 /* sm screen size.. */
 @media (min-width: 640px) {
